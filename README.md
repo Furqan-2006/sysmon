@@ -179,11 +179,9 @@ sysmon/
 | C ↔ Python Bridge | `ctypes` |
 | Config Upload | Flask file handling |
 
----
+## 🧪 Testing
 
-## 💡 CV Talking Points
-
-- **"Wrote a C shared library that reads Linux kernel interfaces (`/proc`, `statvfs`) and integrated it with Flask at runtime using `ctypes` — no subprocess overhead."**
-- **"Designed a JWT-authenticated REST API with token blocklisting and bcrypt password hashing."**
-- **"Used SQLAlchemy to persist time-series metric snapshots to SQLite with filterable history queries."**
-- **"Implemented secure file upload with UUID-based storage, MIME validation, and per-user access control."**
+```bash
+# Run unit tests with pytest
+pytest tests/
+```
